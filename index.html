@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <title>Museo Reina Sofia</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <ul>
+          <li>
+            <a href="#">Hoy en el Museo</a>
+          </li>
+          <li class="entradas">
+            <a href="#">Entradas</a>
+          </li>
+          <li>
+            <a href="#">Guias informativas</a>
+          </li>
+          <li>
+            <a href="#">Horarios y tarifas</a>
+          </li>
+          <li>
+            <select>
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+              <option value="ca">CA</option>
+              <option value="eu">EU</option>
+              <option value="gl">GL</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <nav>
+        <img src="assets/icons/logo.svg" class="logo" alt="img logo museo" />
+        <div class="navbar">
+          <div>
+            <ul class="nav nav-primary">
+              <li>
+                <a href="#">Prensa</a>
+              </li>
+              <li>
+                <a href="#">Restauración</a>
+              </li>
+              <li>
+                <a href="#">Biblioteca y Centro de Documentación</a>
+              </li>
+              <li>
+                <a href="#">Educación</a>
+              </li>
+              <li>
+                <a href="#">Centro de estudios</a>
+              </li>
+              <li>
+                <a href="#">Colabora</a>
+              </li>
+            </ul>
+            <ul class="nav nav-secondary">
+              <li>
+                <a href="#">visita</a>
+              </li>
+              <li>
+                <a href="#">publicaciones</a>
+              </li>
+              <li>
+                <a href="#">colección</a>
+              </li>
+              <li>
+                <a href="#">exposiciones</a>
+              </li>
+              <li>
+                <a href="#">Actividades</a>
+              </li>
+              <li>
+                <img src="assets/icons/search.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <a
+            href="https://www.amigosmuseoreinasofia.org/hazte_amigo.php"
+            class="be_friend"
+          >
+            Hazte Amigo
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <ul class="slider__container">
+          <li class="card">
+            <div class="card__text">
+              <div class="topic">
+                <h4>Exposición</h4>
+                <h4>Palacio de Velázquez</h4>
+              </div>
+              <div>
+                <h2 class="title">Ulla von Brandenburg</h2>
+                <h3>Espacios de una secuencia</h3>
+                <p>Hasta el 10 de marzo, 2024</p>
+              </div>
+            </div>
+            <div class="card__img">
+              <img src="assets/img/ulla_banner.jpg" alt="img card" />
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__text">
+              <div class="topic">
+                <h4>Exposición</h4>
+              </div>
+              <div>
+                <h2 class="title">Ulla von Brandenburg</h2>
+                <h3>Espacios de una secuencia</h3>
+                <p>Hasta el 10 de marzo, 2024</p>
+              </div>
+            </div>
+            <div class="card__img">
+              <img src="assets/img/ulla_banner.jpg" alt="img card" />
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__text">
+              <div class="topic">
+                <h4>Exposición</h4>
+                <h4>Palacio de Velázquez</h4>
+              </div>
+              <div>
+                <h2 class="title">Ulla von Brandenburg</h2>
+                <h3>Espacios de una secuencia</h3>
+                <p>Hasta el 10 de marzo, 2024</p>
+              </div>
+            </div>
+            <div class="card__img">
+              <img src="assets/img/ulla_banner.jpg" alt="img card" />
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Exposiciones</h2>
+
+        <ul class="exposition">
+          <li class="card">
+            <div class="card__img">
+              <img src="assets/img/ulla_snippet_0.jpg" alt="ulla_snippet_0" />
+            </div>
+
+            <div class="card__text">
+              <p class="date">1 diciembre, 2023 - 10 marzo, 2024</p>
+              <h3 class="title">Ulla von Brandenburg</h3>
+              <h4 class="subtitle">Espacios de una secuencia</h4>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img
+                src="assets/img/ibon_principal_snippet.jpg"
+                alt="ibon_principal_snippet"
+              />
+            </div>
+
+            <div class="card__text">
+              <p class="date">29 noviembre, 2023 - 11 marzo, 2024</p>
+              <h3 class="title">Ibon Aranberri</h3>
+              <h4 class="subtitle">Vista parcial</h4>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img
+                src="assets/img/picasso_1906_nude_snippet.jpg"
+                alt="picasso_1906_nude_snippet"
+              />
+            </div>
+
+            <div class="card__text">
+              <p class="date">15 noviembre, 2023 - 4 marzo, 2024</p>
+              <h3 class="title">Picasso 1906</h3>
+              <h4 class="subtitle">La gran transformación</h4>
+            </div>
+          </li>
+        </ul>
+
+        <a class="btn">
+          Ver todas las exposiciones
+          <box-icon
+            name="chevron-right"
+            type="solid"
+            color="#ffffff"
+          ></box-icon>
+        </a>
+      </section>
+
+      <section class="section">
+        <h2>Colecciones</h2>
+        <div class="img__container">
+          <div class="bg__linear">
+            <h3>Colección</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sec-activities">
+        <h2>Actividades</h2>
+        <ul class="activities">
+          <li class="card">
+            <div class="card__img">
+              <img src="assets/img/peter_watkins.jpg" alt="ulla_snippet_0" />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img src="assets/img/serigne_snippet.jpg" alt="ulla_snippet_0" />
+            </div>
+
+            <div class="card__text">
+              <p class="date">Lunes 18 de diciembre, 2023 - 19:00 h</p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img src="assets/img/wolof_snippet.jpg" alt="ulla_snippet_0" />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="block">
+            <h2>Hoy en el museo</h2>
+            <h3>Viernes 15 de diciembre</h3>
+            <p>
+              Consulta las actividades, visitas comentadas y exposiciones
+              temporales programadas para hoy.
+            </p>
+            <a class="btn">Toda la programación</a>
+          </li>
+        </ul>
+        <a class="btn">
+          Ver todas las actividades
+          <box-icon
+            name="chevron-right"
+            type="solid"
+            color="#ffffff"
+          ></box-icon>
+        </a>
+      </section>
+
+      <section class="section">
+        <h2>Visitas comentadas</h2>
+        <ul class="activities">
+          <li class="card">
+            <div class="card__img">
+              <img
+                src="assets/img/por_donde_empiezo_snippet.jpg"
+                alt="ulla_snippet_0"
+              />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img
+                src="assets/img/salirse_del_margen_snippet_2.jpg"
+                alt="ulla_snippet_0"
+              />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img
+                src="assets/img/guernica_snippet_0.png"
+                alt="ulla_snippet_0"
+              />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__img">
+              <img src="assets/img/visita_snippet.jpg" alt="ulla_snippet_0" />
+            </div>
+
+            <div class="card__text">
+              <p class="date">
+                2 de noviembre - 27 de diciembre, 2023 - Consultar programa
+              </p>
+              <h3 class="title">Peter Watkins. Imágenes en guerra</h3>
+              <p class="subtitle">Retrospectiva integral</p>
+              <div class="topic">
+                <h4>Cine y vídeo</h4>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <a class="btn"
+          >Ver todas las visitas
+          <box-icon
+            name="chevron-right"
+            type="solid"
+            color="#ffffff"
+          ></box-icon>
+        </a>
+      </section>
+
+      <section class="section">
+        <h2>Multimedia</h2>
+        <h3>Videos</h3>
+
+        <ul class="activities">
+          <li class="card">
+            <video
+              preload=""
+              tabindex="-1"
+              src="blob:https://player.vimeo.com/cf8b57ab-02b8-4c3c-89e3-0fcdd9a0574a"
+            ></video>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
