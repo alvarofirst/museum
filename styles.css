@@ -26,6 +26,7 @@ header {
 .top-bar li {
   padding: 8px 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .entradas {
@@ -51,10 +52,18 @@ header {
   font-family: Helvetica, sans-serif;
 }
 
-select {
+.top-bar select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
   border: none;
+  text-align: center;
   color: #fff;
   background-color: #373737;
+  border-left: 1px solid #e3e3e31e;
+  border-right: 1px solid #e3e3e31e;
 }
 
 header nav {
@@ -124,20 +133,25 @@ nav a {
 
 /* slider styles */
 
-.slider__container {
-  display: flex;
-  gap: 50px;
-  overflow-x: scroll;
-}
-
 .slider {
   margin-bottom: 120px;
   font-family: Helvetica;
   padding: 30px 0;
-  background-color: #f5f5f5;
   min-height: 435px;
   display: flex;
   justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.slider__container {
+  height: 375px;
+  display: flex;
+  column-gap: 50px;
+  overflow-x: scroll;
+}
+
+.slider__container::-webkit-scrollbar{
+  display: none;
 }
 
 .slider .card {
